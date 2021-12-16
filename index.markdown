@@ -3,27 +3,24 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: EQuotes, vision of climate change through quotes
+title: Let's rewind climate news history
 ---
 
 *A data story*
 
 ## Abstract
 
-Since 2015 and the Paris agreements following the COP21, states and citizens are taking the issue of climate change more and more seriously. The number of newspaper articles addressing these topics has been steadily increasing over the last 5 years leading to strong political movements like the climate strikes initiated by Swedish activist **Greta Thunberg**. The goal of our project is to understand the emergence of climate change awareness through the quotes in the newspapers and to understand the main public feelings about it. To do so, we will analyze our dataset to understand the evolution of the share of speeches talking about climate change,  the key events related to this phenomenon and the public's feelings. The final goal is to link the different important pieces of information found in the analysis of our dataset to understand the importance of this topic on the public scene today compared to 2015.
+Since 2015 and the Paris Agreements following the COP21, states and citizens are taking the issue of climate change more and more seriously. This has led to strong political movements like the climate strikes initiated by Swedish activist Greta Thunberg. The goal of our project is to rewind the story of climate change through the quotes of multiple newspapers. We will first be interested in identifying what the quotes reveal about the important events related to climate change. Then we will dig into the actors behind the quotes, what type of newspapers have the most quotes and what does this tell us. Are the important newspapers talking about climate change mostly for a sustainable change or rather climate sceptics ?  A focus will be made also on the most important political parties of the speakers in the quotes. Are the speakers mostly democrats or republicans ? Which party is the most represented in the newspapers about climate change ? Finally, these analyses will allow us to have a global overview of how and about what Quotebank quotes talk about regarding climate change. 
 
 # Intro
 
 {% include histogram_quotes.html %}
 
-## What are the quotes talking about
-## What quotes are telling us ?
-## The story of climate change events
-## What does quotes tells us about climate change ?
-
-Climate change is starting more and more to attract the attention
+We can first see the distribution of the number of occurrences of climate quotes through the years of 2015 to 2020. The distribution presents an irregular pattern, we can see that some months have a lot of quotes, mostly due to very famous ones like the one of President Donald Trump in august 2017 when he responded to North Korea’s nuclear threats saying the regime > "will be met with fire, fury and frankly power, the likes of which the world has never seen before.". In 2016 there are only a few quotes due to the fact that the original dataset had fewer quotes this year. 
 
 {% include timeline.html %}
+
+
 
 Once those clouds of words generated we can see that some words appear and disapear throughout the years.
 Those are particularly nterrested and an be link with events that took places.
