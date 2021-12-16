@@ -90,8 +90,8 @@ Now, we can have a review about speakers in Breitbart and CarbonBrief quotes. Th
 
 HISTOGRAM POLITICAL PARTY SPEAKERS 
 
-{% include pie_breitbart.html %}
-{% include pie_climate.html %}
+{% include pie_breitbart_final.html %}
+{% include pie_inside_final.html %}
  
 Observing this graph, we can make some analysis. First, Breitbart is more using political personalities than CarbonBrief (Over 80% for Breitbart and only 60% for CarbonBrief). 
 Both are using speakers of 2 majors political parts of UK ( Conservative and labour) and USA (Republican and democratic)
