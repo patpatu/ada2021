@@ -16,7 +16,9 @@ We will first be interested in identifying what the quotes reveal about the impo
 
 ## A little overview
 
-We can first see the distribution of the number of occurrences of climate quotes through the years of 2015 to 2020. The distribution presents an irregular pattern, we can see that some months have a lot of quotes, mostly due to very famous ones like the one of President Donald Trump in august 2017 when he responded to North Korea’s nuclear threats saying the regime > "will be met with fire, fury and frankly power, the likes of which the world has never seen before.". In 2016 there are only a few quotes due to the fact that the original dataset had fewer quotes this year. 
+We can first see the distribution of the number of occurrences of climate quotes through the years of 2015 to 2020. The distribution presents an irregular pattern, we can see that some months have a lot of quotes, mostly due to very famous ones like the one of President Donald Trump in august 2017 when he responded to North Korea’s nuclear threats saying the regime
+
+> "will be met with fire, fury and frankly power, the likes of which the world has never seen before.". In 2016 there are only a few quotes due to the fact that the original dataset had fewer quotes this year. 
 
 {% include histogram_quotes.html %}
 
