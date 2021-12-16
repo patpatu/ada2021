@@ -14,6 +14,8 @@ Since 2015 and the Paris agreements following the COP21, states and citizens are
 
 # Intro
 
+{% include histogram_quotes.html %}
+
 ## What are the quotes talking about
 ## What quotes are telling us ?
 ## The story of climate change events
@@ -88,16 +90,14 @@ Now, we can have a review about speakers in Breitbart and CarbonBrief quotes. Th
 
 HISTOGRAM POLITICAL PARTY SPEAKERS 
 
-{% include pie_graph_breitbart.html %}
-{% include pie_graph_carbonbrief.html %}
+{% include pie_breitbart.html %}
+{% include pie_climate.html %}
  
 Observing this graph, we can make some analysis. First, Breitbart is more using political personalities than CarbonBrief (Over 80% for Breitbart and only 60% for CarbonBrief). 
 Both are using speakers of 2 majors political parts of UK ( Conservative and labour) and USA (Republican and democratic)
 Besides, quotations which are related only by Breitbart are 3 times bigger than quotations related only by CarbonBrief.
 
 # Notes
-
-
 
 
 
