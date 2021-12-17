@@ -44,6 +44,7 @@ Also, a lot of the events that we were able to extract from the word clouds are 
 We can now wonder which newspapers are behind the climate quotes. A lot of sources with an important share of climate quotes are websites that convey articles. These types of newspapers mostly convey articles about trendy topics from other newspapers. This emphasises the fact that climate change became very trendy these past few years. Two american newspapers that stand out by their number of climate quotes are Breitbart and InsideClimateNews. We found out that these two websites had 2 opposite points of view about climate change and thought it was interesting to compare these two. Breitbart is fully against climate change actions whereas InsideClimateNews is pro. The tables below show the top 10 
 
 Breitbart
+
 | Websites          | Number of shared quotes |
 |---------------------|-------|
 | yahoo.com           | 5180 |
@@ -58,6 +59,7 @@ Breitbart
 | wtop.com            | 3338 |
 
 InsideClimateNews
+
 | Websites            | count |
 |---------------------|-------|
 | environmentalhealthnews.org   | 2675 |
@@ -72,6 +74,7 @@ InsideClimateNews
 | sfgate.com                     | 804 |
 
 Most cited websites 
+
 | Websites            | count |
 |---------------------|-------|
 | msn.com             | 1106632 |
@@ -116,7 +119,10 @@ We then try to differentiate those two newspapers by analysing their quotes. Is 
 
 Now, we can have a review about speakers in Breitbart and InsideClimateNews quotes. Thanks to the wikidata data set, we made a link between the quotes' speakers and their political orientation. It’s important to take into account the fact that some people have changed their political orientation, so on, some people can be affiliated to more than one political orientation. 
 
+### Political opinions distribution at Breitbart
 {% include pie_breitbart_final.html %}
+
+### Political opinions distribution at InsideClimateNews 
 {% include pie_inside_final.html %}
  
 - We can first notice that Breitbart and InsideClimateNews both have the same percentage of speakers for which we identified a political party, 69% for Breitbart and 62% for InsideClimateNews. This illustrates how politicized is the subject of climate change.  
