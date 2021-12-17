@@ -28,11 +28,11 @@ We can now try to retrace the history of climate change viewed by the quotes. To
 
 {% include timeline.html %}
 
-It is interesting to see that we can retrace most of the important events that happened through the years thanks to only 20 words. It is pretty remarkable, for the years with low data how we can reconstitute a sentence that corresponds to a specific event that happened that month, like for example the photo of the signature of the Paris Agreement's pact on a friday in april. However, the more the quotes the more difficult it is to connect a specific event to the month’s quotes as the topic is getting more general.
+- It is interesting to see that we can retrace most of the important events that happened through the years thanks to only 20 words. It is pretty remarkable, for the years with low data how we can reconstitute a sentence that corresponds to a specific event that happened that month, like for example the photo of the signature of the Paris Agreement's pact on a friday in april. However, the more the quotes the more difficult it is to connect a specific event to the month’s quotes as the topic is getting more general.
 
-We can see that the word ‘Trump’ appear a lot in the word clouds. This is naturally due to the fact that President Donald Trump is very publicized and cited a lot in the quotes. The word clouds reveal also that the Paris Agreement has an important media coverage in the english newspapers.  We were also a little surprised by the fact that Greta Thunberg does not appear once in the word clouds as we think she became important in the figth for action for climate change these past few years. This means that she is maybe not as cited as we thought in the quotes. Naturally, a lot of general words like 'people', 'like', 'world' , 'time' appear a lot in the word clouds and make the analysis a bit harder. When the word cloud has mostly general words it is pretty impossible to retrace a specific event and there are many possibilities.
+- We can see that the word ‘Trump’ appear a lot in the word clouds. This is naturally due to the fact that President Donald Trump is very publicized and cited a lot in the quotes. The word clouds reveal also that the Paris Agreement has an important media coverage in the english newspapers.  We were also a little surprised by the fact that Greta Thunberg does not appear once in the word clouds as we think she became important in the figth for action for climate change these past few years. This means that she is maybe not as cited as we thought in the quotes. Naturally, a lot of general words like 'people', 'like', 'world' , 'time' appear a lot in the word clouds and make the analysis a bit harder. When the word cloud has mostly general words it is pretty impossible to retrace a specific event and there are many possibilities.
 
-Also, a lot of the events that we were able to extract from the word clouds are related to big climate protests or climate disasters which are very publicized events related to climate change. 
+- Also, a lot of the events that we were able to extract from the word clouds are related to big climate protests or climate disasters which are very publicized events related to climate change. 
 
 
 ## Who tells the story ?
@@ -56,39 +56,44 @@ The following table shows the 10 websites that have the most quotes.
 | yahoo.com             | 57526 |
 | salon.com             | 57224 |
 
-Two american newspapers that stand out by their number of climate quotes are Breitbart and InsideClimateNews. We found out that these two websites had 2 opposite points of view about climate change and thought it was interesting to compare these two. Breitbart is fully against climate change actions whereas InsideClimateNews is pro. 
-
-The table belows shows the 10 websites that share the most number of quotes with Breitbart or InsideClimateNews. 
-
-| Breitbart                     | Number of quotes | InsideClimateNews  | Number of quotes |
-|-------------------------------|-------|-------------------|---------|
-| environmentalhealthnews.org   | 2675  | msn.com           | 1106632 |
-| dailyclimate.org              | 2644  | investing.com     | 475852  |
-| nytimes.com                   | 1864  | jdsupra.com       | 319747  |
-| msn.com                       | 1807  | wokv.com          | 215855  |
-| yahoo.com                     | 1230  | krmg.com          | 192553  |
-| thehill.com                   | 1142  | news965.com       | 174527  |
-| startribune.com               |  914  | wsbradio.com      | 157839  |
-| seattletimes.com              |  820  | independent.co.uk | 58124   |
-| breitbart.com                 |  805  | yahoo.com         | 57526   |
-| sfgate.com                    |  804  | salon.com         | 57224   |
-
-
-
-
 
 ### Breitbart VS InsideClimateNews
+
+Two american newspapers that stood out by their number of climate quotes are Breitbart and InsideClimateNews. We found out that these two websites had 2 opposite points of view about climate change and thought it was interesting to compare these two. Breitbart is fully against climate change actions whereas InsideClimateNews is pro. InsideClimateNews is a fully environmental oriented newspaper while Breitbart is a political newspaper. We will focus our analyses only on the articles related to climate change.
+
+We resumed in the table below the number of quotes of Breitbart and InsideClimateNews and their number of unique quotes. These last ones are quotes that are not reused in any of the newspapers' articles. 
 
 | | Breitbart | InsideClimateNews |
 |-|-----------|-------------|
 | Number of quotes | 40'102 | 21'202 |
-| Number of unique quotes | 23'185 (~58%) | 19'973 (~94) |
+| Number of unique quotes | 23'185 (~58%) | 19'973 (~94%) |
 
-First, we can see that about **42%** of Breitbart quotes are reused in different Breitbart articles whereas only around **6%** of CarbonBrief quotes are reused by them. This lights out that sources and quotes are more **diversified** for InsideClimateNews than Breitbart. Breitbart articles rely on the same quotes to argue their point of view while InsideClimateNews tries to use different quotes to support their opinions.  
+- We can see that about **42%** of Breitbart quotes are reused in different Breitbart articles whereas only around **6%** of CarbonBrief quotes are reused by them. This lights out that sources and quotes are more **diversified** for InsideClimateNews than Breitbart. Breitbart articles rely on the same quotes to argue their point of view while InsideClimateNews tries to use different quotes to support their opinions in their different articles.  
+
+{% include power_law.html %}
+
+- We plotted the number of occurrences of the reused quotes as a function of the numbers of quotes that are reused by Breitbart in their articles. 
+
+Let's now investigate which newspapers share quotes with Breitbart and InsideClimateNews. 
+The table belows shows the 10 websites that share the most number of quotes with Breitbart or InsideClimateNews. 
+
+| Breitbart            | Number of quotes | InsideClimateNews | Number of quotes |
+|---------------------|-------|---------------------|-------|
+| yahoo.com           | 5180 | environmentalhealthnews.org   | 2675 |
+| msn.com             | 4691 | dailyclimate.org              | 2644 |
+| news12.com          | 4370 | nytimes.com                   | 1864 |
+| kdhnews.com         | 4183 | msn.com                       | 1807 |
+| seattletimes.com    | 3817 | yahoo.com                     | 1230 |
+| sfgate.com          | 3810 | thehill.com                   | 1142 |
+| startribune.com     | 3623 | startribune.com                | 914 |
+| washingtontimes.com | 3609 | seattletimes.com               | 820 |
+| wftv.com            | 3524 | breitbart.com                  | 805 |
+| wtop.com            | 3338 | sfgate.com                     | 804 |
+
 
 ### The newspapers in clusters 
 
-An interesting analysis could be to see how the newspapers are linked together. 
+An interesting analysis could be to see now how these newspapers are linked together. 
 
 {% include cluster_graph.html %}
 
@@ -96,12 +101,24 @@ An interesting analysis could be to see how the newspapers are linked together.
 
 - At first sight, this graph points out the fact that Breitbart and InsideClimateNews do not share a lot of quotes, only **30%** of the total number of quotes are shared between these two newspapers. This is interesting as it demonstrates the fact that their articles that have the same main topic which is climate change have different quotes. The newspapers that share the same quotes between Breitbart and InsideClimateNews are mostly websites that convey articles like Yahoo or ExpressNews. This same cluster is at the same distance from Breitbart than from InsideClimateNews, this means that the newspapers in this cluster relay the same amount of quotes from the pro climate newspaper as from the climate sceptik one. 
 
-- We can see that websites associated with Breitbart represented inside the cluster are for the most climate skeptics newspapers like FoxNews or other newspapers that belongs to FowNews like Fox23 or NewsAdvance. Likewise, most of the websites associated with InsideClimateNews are pro-climate like WashingtonPost or the NyTimes. Also, we can see that the distances between the nodes connected to Breitbart are closer than the ones connected to InsideClimateNews. That means that Breitbart shares a lot of quotes with other websites. As pointed out before, this confirms the fact that the newspapers related to Breitbart and Breitbart do not diversify their sources and use the same quotes.
+- We can see that websites associated with Breitbart represented inside the cluster are for the most climate skeptics newspapers like FoxNews or other newspapers that belongs to FowNews like Fox23 or NewsAdvance. Likewise, most of the websites associated with InsideClimateNews are pro-climate like WashingtonPost or the NyTimes. 
+
+- Also, we can see that the distances between the nodes connected to Breitbart are closer than the ones connected to InsideClimateNews. That means that Breitbart shares a lot of quotes with other similar websites. As pointed out before, this confirms the fact that the newspapers related to Breitbart and Breitbart do not diversify their sources and use the same quotes.
 
 
 ### Inside Breitbart and InsideClimateNews' quotes
 
-We then try to differentiate those two newspapers by analysing their quotes. Is there a different content, a different sentimental score ? The sentimental analysis of positive and negative scores of both journals is not significant, they have quite the same results of score, mean, variance, even median. However we computed the TF-IDF matrix for both journals each year and we obtained the following results. The TF-IDF matrix gives a score for each word reflecting the rarity of a word. A word with a high score is used a lot in a quote but not in all the quotes. So a high score for a word represents his significance. You can see above a list of top scored words for all the quotations of Breibart and InsideClimateNews from 2015 to 2020. 
+Let's now focus on what the quotes tell us about these newspapers. 
+
+{% include scatter.html %}
+
+- We can see from the graph below that the relevance of words for InsideClimateNews is higher than for Breitbart. This relevance score shows that the words in InsideClimateNews quotes are more diverse and carefully chosen. Especially when we compare these scores with the quotes from Breitbart and InsideClimateNews together, we see that Breitbart has a similar distribution of scores, while InsideClimateNews has a distinctly skewed distribution. This really shows the quality of the quotes used by InsideClimateNews. 
+
+- Next, we can look deeper and see which words have the highest score for each newspaper. The more relevant a word is, the more carefully it was used, certainly to support a specific topic. The most relevant words used by InsideClimateNews are mostly words directly related to climate change, while Breitbart's are mostly more general words. For example, the most relevant word for InsideClimateNews is 'epa', which is the US Environmental Protection Agency.
+
+- We can therefore conclude that the quotes relayed by InsideClimateNews are more qualitative and the words used are more precisely chosen. This complements what we have seen previously, namely that Breitbart reuse many of the same quotes.
+
+- However, it should be noted that this analysis is based on quotes filtered only on the word climate, and it does not mean that 100% of them are related to climate change. That is why words like 'women' or 'family' also stand out.
 
 
 ## What about their speakers ? 
@@ -111,10 +128,22 @@ Now, we can have a review about speakers in Breitbart and InsideClimateNews quot
 {% include pie_breitbart_final.html %}
 {% include pie_inside_final.html %}
  
-- We can first notice that Breitbart and InsideClimateNews both have the same percentage of speakers for which we identified a political party, 69% for Breitbart and 62% for InsideClimateNews. This illustrates how politicized is the subject of climate change.  
+- We can first notice that Breitbart and InsideClimateNews both have the same percentage of speakers for which we identified a political opinion, 69% for Breitbart and 62% for InsideClimateNews. This illustrates how politicized the subject of climate change is.  
 
-- Both newspapers' speakers are for the majority from the two important political parties of the USA, the Republican and the Democratic parties. This shows the importance of these political parties in these two american newspapers. It is interesting, but not very surprising to notice that Breitbart is the only newspaper that has the Independent Party of America represented which is a party that is openly against climate change.
+- Both newspapers' speakers are for the majority from the two important political parties of the USA, the Republican and the Democratic parties. This shows the importance of these political parties in these two american newspapers. It is interesting, but not very surprising to notice that Breitbart is the only newspaper between the two that has the Independent Party of America represented which is a party that is openly against climate change.
 
 - Breitbart has more than 41% of their quotes' speakers that belong to american’s political parties whereas InsideClimateNews only has 21% that does. In the category other parties, political parties from many countries are represented like the english Conservative party or the french one La République en Marche. This shows that even though the two newspapers are american, one diversifies more his speakers than the other. InsideClimateNews gives a more global overview of climate change referring speakers from all over the world in his articles than Breitbart. 
+
+
+
+## Conclusion
+
+After a little rewind about the history of climate change of these past years we were interested in looking at who was behind that story. We then focused on two newspapers that we thought interesting as they have a totally different opinion regarding climate change. The pro climate newspaper uses more unique quotes, whose speakers are politically diversified and whose quotes are more relevant and more related to climate change in their articles. Also, the climate sceptik newspapers cluster all share the same quotes and are not very diversified.
+
+
+
+
+
+
 
 
