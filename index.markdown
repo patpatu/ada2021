@@ -6,8 +6,6 @@ layout: home
 title: Let’s rewind climate history 
 ---
 
-*A data story*
-
 ## Abstract
 
 Since 2015 and the Paris Agreements following the COP21, states and citizens are taking the issue of **climate change** more and more seriously. This has led to strong political movements like the climate strikes initiated by Swedish activist Greta Thunberg. The goal of our project is to rewind the story of climate change through the quotes of multiple newspapers. 
@@ -41,41 +39,11 @@ Also, a lot of the events that we were able to extract from the word clouds are 
 
 ### The types of newspapers 
 
-We can now wonder which newspapers are behind the climate quotes. A lot of sources with an important share of climate quotes are websites that convey articles. These types of newspapers mostly convey articles about trendy topics from other newspapers. This emphasises the fact that climate change became very trendy these past few years. Two american newspapers that stand out by their number of climate quotes are Breitbart and InsideClimateNews. We found out that these two websites had 2 opposite points of view about climate change and thought it was interesting to compare these two. Breitbart is fully against climate change actions whereas InsideClimateNews is pro. The tables below show the top 10 
+We can now wonder which newspapers are behind the climate quotes. A lot of sources with an important share of climate quotes are websites that convey articles. These types of newspapers mostly convey articles about trendy topics from other newspapers. This emphasises the fact that climate change became very trendy these past few years. 
 
-Breitbart
+The following table shows the 10 websites that have the most quotes.
 
-| Websites          | Number of shared quotes |
-|---------------------|-------|
-| yahoo.com           | 5180 |
-| msn.com             | 4691 |
-| news12.com          | 4370 |
-| kdhnews.com         | 4183 |
-| seattletimes.com    | 3817 |
-| sfgate.com          | 3810 |
-| startribune.com     | 3623 |
-| washingtontimes.com | 3609 |
-| wftv.com            | 3524 |
-| wtop.com            | 3338 |
-
-InsideClimateNews
-
-| Websites            | count |
-|---------------------|-------|
-| environmentalhealthnews.org   | 2675 |
-| dailyclimate.org              | 2644 |
-| nytimes.com                   | 1864 |
-| msn.com                       | 1807 |
-| yahoo.com                     | 1230 |
-| thehill.com                   | 1142 |
-| startribune.com                | 914 |
-| seattletimes.com               | 820 |
-| breitbart.com                  | 805 |
-| sfgate.com                     | 804 |
-
-Most cited websites 
-
-| Websites            | count |
+| Websites            | Number of quotes |
 |---------------------|-------|
 | msn.com             | 1106632 |
 | investing.com        | 475852 |
@@ -87,6 +55,27 @@ Most cited websites
 | independent.co.uk     | 58124 |
 | yahoo.com             | 57526 |
 | salon.com             | 57224 |
+
+Two american newspapers that stand out by their number of climate quotes are Breitbart and InsideClimateNews. We found out that these two websites had 2 opposite points of view about climate change and thought it was interesting to compare these two. Breitbart is fully against climate change actions whereas InsideClimateNews is pro. 
+
+The table belows shows the 10 websites that share the most number of quotes with Breitbart or InsideClimateNews. 
+
+| Breitbart                     | Number of quotes | InsideClimateNews  | Number of quotes |
+|-------------------------------|-------|-------------------|---------|
+| environmentalhealthnews.org   | 2675  | msn.com           | 1106632 |
+| dailyclimate.org              | 2644  | investing.com     | 475852  |
+| nytimes.com                   | 1864  | jdsupra.com       | 319747  |
+| msn.com                       | 1807  | wokv.com          | 215855  |
+| yahoo.com                     | 1230  | krmg.com          | 192553  |
+| thehill.com                   | 1142  | news965.com       | 174527  |
+| startribune.com               |  914  | wsbradio.com      | 157839  |
+| seattletimes.com              |  820  | independent.co.uk | 58124   |
+| breitbart.com                 |  805  | yahoo.com         | 57526   |
+| sfgate.com                    |  804  | salon.com         | 57224   |
+
+
+
+
 
 ### Breitbart VS InsideClimateNews
 
@@ -119,10 +108,7 @@ We then try to differentiate those two newspapers by analysing their quotes. Is 
 
 Now, we can have a review about speakers in Breitbart and InsideClimateNews quotes. Thanks to the wikidata data set, we made a link between the quotes' speakers and their political orientation. It’s important to take into account the fact that some people have changed their political orientation, so on, some people can be affiliated to more than one political orientation. 
 
-### Political opinions distribution at Breitbart
 {% include pie_breitbart_final.html %}
-
-### Political opinions distribution at InsideClimateNews 
 {% include pie_inside_final.html %}
  
 - We can first notice that Breitbart and InsideClimateNews both have the same percentage of speakers for which we identified a political party, 69% for Breitbart and 62% for InsideClimateNews. This illustrates how politicized is the subject of climate change.  
