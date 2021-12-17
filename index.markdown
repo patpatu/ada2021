@@ -3,10 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title:
+title: Let’s rewind the climate history 
 ---
-
-{% include title.html %}
 
 ## Abstract
 
@@ -130,10 +128,17 @@ Let's now focus on what the quotes tell us about these newspapers.
 
 Now, we can have a review about **speakers** in Breitbart and InsideClimateNews quotes. Thanks to the wikidata data set, we made a link between the quotes' speakers and their political orientation. It’s important to take into account the fact that some people have changed their political orientation, so on, some people can be affiliated to more than one political orientation. 
 
+### Breitbart quotes political views
+
 {% include pie_breitbart_final.html %}
+
+### Inside Climate News quotes political views
+
 {% include pie_inside_final.html %}
  
 - We can first notice that Breitbart and InsideClimateNews both have the same percentage of speakers for which we identified a political opinion, 69% for Breitbart and 62% for InsideClimateNews. This illustrates how **politicized** the subject of climate change is.  
+
+- We have to notice that Unkown include either quotations which don't have speakers or have speakers whithout significant political views.
 
 - Both newspapers' speakers are for the majority from the two important political parties of the USA, **Republican** and **Democratic** parties. This shows the importance of these political parties in these two american newspapers. It is interesting, but not very surprising to notice that Breitbart is the only newspaper between the two that has the **Independent Party of America** represented which is a party that is openly against climate change.
 
@@ -143,7 +148,7 @@ Now, we can have a review about **speakers** in Breitbart and InsideClimateNews 
 
 ## Conclusion
 
-After a little rewind about the history of climate change of these past years we were interested in looking at who was behind that story. We then focused on two newspapers that we thought interesting as they have a totally different opinion regarding climate change. The pro climate newspaper uses more **unique** quotes, whose speakers are politically **diversified** and whose quotes are more **relevant** and more related to climate change in their articles. Also, the climate sceptic newspapers cluster all share the same quotes and are not very diversified.
+After a little rewind about the history of climate change of these past years we were interested in looking at who was behind that story. We then focused on two newspapers that we thought interesting as they have a totally different opinion regarding climate change. The pro climate newspaper uses more **unique** quotes, whose quotes are more **relevant** and more related to climate change in their articles and whose speakers are politically **diversified**. Also, the climate sceptic newspapers cluster all share the same quotes and are not very diversified.
 
 
 [^1]# Bibliography 
